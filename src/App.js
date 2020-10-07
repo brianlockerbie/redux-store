@@ -1,12 +1,7 @@
 import React from "react";
+import Hero from './components/Hero';
 import "./App.css";
 
-const App = () => {
-  return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
-  );
-}
+const App = () => <Hero />;
 
 export default App;
