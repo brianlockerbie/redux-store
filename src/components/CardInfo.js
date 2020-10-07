@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "./reusableComponents";
+import Button from "./reusableComponents/Button";
 
-const CardInfo = () => {
+const CardInfo = ({ shoePrice }) => {
   return (
     <div className="cardInfo">
-      <p>Price</p>
+      <p>${shoePrice}</p>
       <Button />
     </div>
   );
 };
 
-export default Button;
+export default CardInfo;

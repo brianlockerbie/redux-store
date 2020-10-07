@@ -1,9 +1,9 @@
 import React from "react";
 
-const CardBg = () => {
+const CardBg = ({ shoeImg }) => {
   return (
     <div className="cardBg">
-      <img src="" alt="" />
+      <img src={shoeImg} alt="shoe" />
     </div>
   );
 };
