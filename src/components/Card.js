@@ -1,7 +1,7 @@
 import React from "react";
-import CardBg from './CardBg';
-import CardInfo from './CardInfo';
-import ShoeData from './ShoeData';
+import CardBg from "./CardBg";
+import CardInfo from "./CardInfo";
+import ShoeData from "./ShoeData";
 
 const Card = ({ updateCart }) => {
   return (

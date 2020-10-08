@@ -11,9 +11,20 @@ const Hero = () => {
   const [cartItems, setCartItems] = useState([]);
   const [hiddenMenu, setHiddenMenu] = useState(false);
 
-  const updateCart = () => {
+  const updateCart = (shoeImg, shoePrice) => {
+    setItemCount((prevCount) => prevCount + 1);
+    setTotalPrice((prevPrice) => prevPrice + shoePrice);
+    if (cartItems.find((item) => item.img === shoeImg)) {
+      const result = cartItems.find((item) => item.img === shoeImg);
+      result.cartCount++;
+      return;
+    }
 
-  }
+    setCartItems([
+      ...cartItems,
+      { img: shoeImg, price: shoePrice, id: uuidv4(), cartCount: 1 },
+    ]);
+  };
 
   return (
     <section className="hero">
