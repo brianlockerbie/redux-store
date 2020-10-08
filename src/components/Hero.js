@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Nav from "./Nav";
 import Container from "./reusableComponents/Container";
 import CardContainer from './CardContainer';
+import ShoppingCartContainer from './ShoppingCartContainer';
 
 const Hero = () => {
   const [totalPrice, setTotalPrice] = useState(0);
@@ -15,6 +16,7 @@ const Hero = () => {
       <Nav />
       <Container>
           <CardContainer />
+          <ShoppingCartContainer />
       </Container>
     </section>
   );
