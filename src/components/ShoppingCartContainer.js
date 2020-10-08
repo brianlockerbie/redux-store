@@ -1,6 +1,8 @@
 import React from "react";
 
-const ShoppingCartContainer = () => {
+const ShoppingCartContainer = (props) => {
+  const { hiddenMenu, cartItems, totalPrice, itemCount } = props;
+  
   return (
     <div className="shoppingCartContainer">
       <p></p>

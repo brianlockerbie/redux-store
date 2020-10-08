@@ -16,7 +16,12 @@ const Hero = () => {
       <Nav />
       <Container>
           <CardContainer />
-          <ShoppingCartContainer />
+          <ShoppingCartContainer 
+            hiddenMenu={hiddenMenu}
+            cartItems={cartItems}
+            totalPrice={totalPrice}
+            itemCount={itemCount}
+          />
       </Container>
     </section>
   );
