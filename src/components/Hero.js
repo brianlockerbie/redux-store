@@ -26,6 +26,11 @@ const Hero = () => {
     ]);
   };
 
+  const removeItem = (id) => {
+    const newItems = cartItems.filter((cartItem) => cartItem.id !== id);
+    setCartItems(newItems);
+  };
+
   return (
     <section className="hero">
       <Nav 
@@ -40,6 +45,7 @@ const Hero = () => {
             cartItems={cartItems}
             totalPrice={totalPrice}
             itemCount={itemCount}
+            removeItem={removeItem}
           />
       </Container>
     </section>
