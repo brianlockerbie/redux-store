@@ -2,6 +2,8 @@
 
 <p align="center">Shopping Cart App</p>
 
+## 🕹 Live Demo: https://modest-goldberg-3d4ef4.netlify.app/
+
 
 ## 🎮 How to use
 1. Add or remove as many pairs of the 6 shoe selections to your shopping cart.
