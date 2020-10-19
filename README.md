@@ -2,7 +2,7 @@
 
 <p align="center">Shopping Cart App</p>
 
-## 🕹 Live Demo: https://modest-goldberg-3d4ef4.netlify.app/
+## 🕹 Live Demo: https://react-shopping-cart-app.netlify.app/
 
 
 ## 🎮 How to use
